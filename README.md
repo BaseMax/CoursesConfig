@@ -2,6 +2,12 @@
 
 A php script for parsing an own configuration setting file  and generate HTML page archive.
 
+## Structures
+
+- Course
+- Section
+- Episode/Lesson
+
 ### CoursesConfig
 
 - Split Courses by `===`.
