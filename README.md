@@ -21,6 +21,10 @@ A php script for parsing an own configuration setting file  and generate HTML pa
 - You can set default input filename in `src/parser.php` at `$file`.
 - You can set directory prefix in `src/parser.php` at `$prefix`.
 
+## Sample Config File
+
+You can see a complete config file at [input.txt](input.txt) file.
+
 ## Using
 
 ```
