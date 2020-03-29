@@ -53,6 +53,10 @@ or
 $ php src/parser.php your-own-filename.txt
 ```
 
+## Demo of output HTML archive
+
+https://basemax.github.io/CoursesConfig/out/index.html
+
 ---------
 
 # Max Base
