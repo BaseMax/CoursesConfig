@@ -23,7 +23,25 @@ A php script for parsing an own configuration setting file  and generate HTML pa
 
 ## Sample Config File
 
-You can see a complete config file at [input.txt](input.txt) file.
+```
+Backlink Basics (it's course title)
+- Backlink Basics Overview (it's lesson subject)
+https://maxbase.org/
+- What Are Links? (it's lesson subject)
+https://maxbase.org/
+- How to Evaluate Links (it's lesson subject)
+https://maxbase.org/
+# Welcome to Finding Potential SEO Clients (it's section title)
+- Introduction to Finding Potential SEO Clients (it's lesson subject)
+https://maxbase.org/
+# Your Agency's Digital Presence (it's section title)
+- Introduction - Your Agency's Digital Presence (it's lesson subject)
+https://maxbase.org/
+- Provide Value On Your Agency’s Website (it's lesson subject)
+https://maxbase.org/
+```
+
+Or you can see a complete config file at [input.txt](input.txt) file.
 
 ## Using
 
