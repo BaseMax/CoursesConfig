@@ -16,6 +16,21 @@ A php script for parsing an own configuration setting file  and generate HTML pa
 - Course can have many lesson or episode, and episode name start with `-`, also in next line there is movie link.
 - Sections can have many lessons.
 
+## Deep knowing how works
+
+- You can set default input filename in `src/parser.php` at `$file`.
+- You can set directory prefix in `src/parser.php` at `$prefix`.
+
+## Using
+
+```
+$ php src/parser.php
+or
+$ php src/parser.php input.txt
+or
+$ php src/parser.php your-own-filename.txt
+```
+
 ---------
 
 # Max Base
