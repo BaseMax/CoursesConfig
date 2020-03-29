@@ -23,7 +23,7 @@ function lines2Str($lines) {
 }
 ///////////////////////////////////////////////
 $prefix="../out/";
-$file=isset($argv[1]) ? $argv[1] : "../links.txt";
+$file=isset($argv[1]) ? $argv[1] : "../input.txt";
 ///////////////////////////////////////////////
 $data=file_get_contents($file);
 $items=explode("===", $data);
