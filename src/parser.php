@@ -79,15 +79,7 @@ foreach($items as $item) {
 			}
 			$link=trim(mb_substr($link, 1));
 			$episode=pathise($link.".mp4");
-			$direct="$x-$y-$episode";
-			$html.="<li><a href=\"$direct\">$link</a></li>";
-			$direct=$dir.$direct;
-			$video="$dir$x-$y-$episode";
-			// rename("$prefix$x-$y.mp4", $direct);
-			if(!file_exists($video)) {
-				// Download `$nextLink` and save at `$video`
-				print "Create $video from $nextLink\n";
-			}
+			$html.="<li><a href=\"$nextLink\">$link</a></li>";
 			$y++;
 		}
 	}
