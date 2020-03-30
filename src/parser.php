@@ -8,10 +8,20 @@ function startsWith($string, $startString) {
 function pathise($title) {
 	$title=str_replace([" ", "\t", "?", "!"], "-", trim($title));
 	$title=str_replace("---", "-", $title);
+	$title=str_replace(".", "-", $title);
+	$title=str_replace(":", "-", $title);
+	$title=str_replace("_", "-", $title);
+	$title=str_replace("&", "-", $title);
+	$title=str_replace("(", "-", $title);
+	$title=str_replace(")", "-", $title);
 	$title=str_replace("--", "-", $title);
 	$title=str_replace("---", "-", $title);
+	$title=str_replace("--", "-", $title);
 	$title=str_replace(".-", ".", $title);
 	$title=str_replace("-.", ".", $title);
+	if($title[strlen($title)-1] == "-") {
+		$title=mb_substr($title, 0, -1);
+	}
 	return strtolower($title);
 }
 function lines2Str($lines) {
