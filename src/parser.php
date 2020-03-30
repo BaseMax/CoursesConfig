@@ -78,7 +78,6 @@ foreach($items as $item) {
 				$html.="<ul>";
 			}
 			$link=trim(mb_substr($link, 1));
-			$episode=pathise($link.".mp4");
 			$html.="<li><a href=\"$nextLink\">$link</a></li>";
 			$y++;
 		}
