@@ -10,7 +10,8 @@ function pathise($title) {
 	$title=str_replace("---", "-", $title);
 	$title=str_replace(".", "-", $title);
 	$title=str_replace(":", "-", $title);
-	$title=str_replace("_", "-", $title);
+	$title=str_replace("\"", "-", $title);
+	$title=str_replace("'", "-", $title);
 	$title=str_replace("&", "-", $title);
 	$title=str_replace("(", "-", $title);
 	$title=str_replace(")", "-", $title);
